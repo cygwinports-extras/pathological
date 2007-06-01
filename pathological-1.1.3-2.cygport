@@ -1,0 +1,38 @@
+inherit python
+
+DESCRIPTION="Clone of Rainbow Arts' Logical game"
+HOMEPAGE="http://pathological.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
+
+src_install() {
+	cd ${B}
+	dobin pathological
+
+	exeinto /usr/lib/pathological/bin
+	doexe write-highscores.exe
+
+	insinto /usr/share/games/${PN}
+	doins pathological.py
+
+	for dir in circuits graphics music sounds
+	do
+		insinto /usr/share/games/${PN}/$dir
+    	doins $dir/*
+	done
+
+	rm -fr ${D}/usr/share/games/${PN}/graphics/*.xcf
+
+	doman pathological.6.gz
+
+	insinto /var/games
+	doins pathological_scores
+
+	doicon pathological.xpm
+	make_desktop_entry pathological Pathological pathological.xpm "Game;PuzzleGame"
+}

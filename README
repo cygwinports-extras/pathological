@@ -1,0 +1,230 @@
+pathological
+-------------------------------------------
+Pathological is a puzzle game consisting of marbles that roll along paths,
+and interact along the way with various devices and gadgets.
+
+The object of each level is to 'complete' all of the wheels on the board.
+To complete a wheel, catch four marbles of matching color in the same
+wheel. The marbles will vanish, and the wheel will turn dark to indicate
+that it has been completed.
+
+Runtime requirements:
+  python-2.5.1-1
+  python-pygame-1.7.1-2
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  netpbm-10.37.02-1
+
+Canonical homepage:
+  http://pathological.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/pathological/
+
+-------------------------------------------
+
+Build instructions:
+  unpack pathological-1.1.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pathological-1.1.3-X.cygport all
+
+This will create:
+  /usr/src/pathological-1.1.3-X-src.tar.bz2
+  /usr/src/pathological-1.1.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/pathological
+  /usr/lib/pathological/bin/write-highscores.exe
+  /usr/share/applications/pathological.desktop
+  /usr/share/doc/Cygwin/pathological-1.1.3.README
+  /usr/share/doc/pathological-1.1.3/ChangeLog
+  /usr/share/doc/pathological-1.1.3/html/buffer.png
+  /usr/share/doc/pathological-1.1.3/html/buffer2.png
+  /usr/share/doc/pathological-1.1.3/html/director.png
+  /usr/share/doc/pathological-1.1.3/html/favicon.ico
+  /usr/share/doc/pathological-1.1.3/html/filter.png
+  /usr/share/doc/pathological-1.1.3/html/index.html
+  /usr/share/doc/pathological-1.1.3/html/painter.png
+  /usr/share/doc/pathological-1.1.3/html/replicator.png
+  /usr/share/doc/pathological-1.1.3/html/shredder.png
+  /usr/share/doc/pathological-1.1.3/html/stoplight.png
+  /usr/share/doc/pathological-1.1.3/html/stoplight2.png
+  /usr/share/doc/pathological-1.1.3/html/switch.png
+  /usr/share/doc/pathological-1.1.3/html/teleporter.png
+  /usr/share/doc/pathological-1.1.3/html/trigger.png
+  /usr/share/doc/pathological-1.1.3/html/trigger2.png
+  /usr/share/doc/pathological-1.1.3/html/wheel.png
+  /usr/share/doc/pathological-1.1.3/LICENSE
+  /usr/share/doc/pathological-1.1.3/README
+  /usr/share/doc/pathological-1.1.3/TODO
+  /usr/share/games/pathological/circuits/all-boards
+  /usr/share/games/pathological/graphics/backdrop.jpg
+  /usr/share/games/pathological/graphics/blank-bg-tile.png
+  /usr/share/games/pathological/graphics/blank-wheel-dark.png
+  /usr/share/games/pathological/graphics/blank-wheel.png
+  /usr/share/games/pathological/graphics/buffer-top.png
+  /usr/share/games/pathological/graphics/buffer.png
+  /usr/share/games/pathological/graphics/director-0.png
+  /usr/share/games/pathological/graphics/director-1.png
+  /usr/share/games/pathological/graphics/director-2.png
+  /usr/share/games/pathological/graphics/director-3.png
+  /usr/share/games/pathological/graphics/entrance.png
+  /usr/share/games/pathological/graphics/filter-0-cb.png
+  /usr/share/games/pathological/graphics/filter-0.png
+  /usr/share/games/pathological/graphics/filter-1-cb.png
+  /usr/share/games/pathological/graphics/filter-1.png
+  /usr/share/games/pathological/graphics/filter-2-cb.png
+  /usr/share/games/pathological/graphics/filter-2.png
+  /usr/share/games/pathological/graphics/filter-3-cb.png
+  /usr/share/games/pathological/graphics/filter-3.png
+  /usr/share/games/pathological/graphics/filter-4-cb.png
+  /usr/share/games/pathological/graphics/filter-4.png
+  /usr/share/games/pathological/graphics/filter-5-cb.png
+  /usr/share/games/pathological/graphics/filter-5.png
+  /usr/share/games/pathological/graphics/filter-6-cb.png
+  /usr/share/games/pathological/graphics/filter-6.png
+  /usr/share/games/pathological/graphics/filter-7-cb.png
+  /usr/share/games/pathological/graphics/filter-7.png
+  /usr/share/games/pathological/graphics/icon.png
+  /usr/share/games/pathological/graphics/intro.png
+  /usr/share/games/pathological/graphics/launcher-corner.png
+  /usr/share/games/pathological/graphics/launcher-v.png
+  /usr/share/games/pathological/graphics/launcher.png
+  /usr/share/games/pathological/graphics/life-marble.png
+  /usr/share/games/pathological/graphics/marble-0-cb.png
+  /usr/share/games/pathological/graphics/marble-0.png
+  /usr/share/games/pathological/graphics/marble-1-cb.png
+  /usr/share/games/pathological/graphics/marble-1.png
+  /usr/share/games/pathological/graphics/marble-2-cb.png
+  /usr/share/games/pathological/graphics/marble-2.png
+  /usr/share/games/pathological/graphics/marble-3-cb.png
+  /usr/share/games/pathological/graphics/marble-3.png
+  /usr/share/games/pathological/graphics/marble-4-cb.png
+  /usr/share/games/pathological/graphics/marble-4.png
+  /usr/share/games/pathological/graphics/marble-5-cb.png
+  /usr/share/games/pathological/graphics/marble-5.png
+  /usr/share/games/pathological/graphics/marble-6-cb.png
+  /usr/share/games/pathological/graphics/marble-6.png
+  /usr/share/games/pathological/graphics/marble-7-cb.png
+  /usr/share/games/pathological/graphics/marble-7.png
+  /usr/share/games/pathological/graphics/marble-8-cb.png
+  /usr/share/games/pathological/graphics/marble-8.png
+  /usr/share/games/pathological/graphics/moving-hole-dark.png
+  /usr/share/games/pathological/graphics/moving-hole.png
+  /usr/share/games/pathological/graphics/painter-0-cb.png
+  /usr/share/games/pathological/graphics/painter-0.png
+  /usr/share/games/pathological/graphics/painter-1-cb.png
+  /usr/share/games/pathological/graphics/painter-1.png
+  /usr/share/games/pathological/graphics/painter-2-cb.png
+  /usr/share/games/pathological/graphics/painter-2.png
+  /usr/share/games/pathological/graphics/painter-3-cb.png
+  /usr/share/games/pathological/graphics/painter-3.png
+  /usr/share/games/pathological/graphics/painter-4-cb.png
+  /usr/share/games/pathological/graphics/painter-4.png
+  /usr/share/games/pathological/graphics/painter-5-cb.png
+  /usr/share/games/pathological/graphics/painter-5.png
+  /usr/share/games/pathological/graphics/painter-6-cb.png
+  /usr/share/games/pathological/graphics/painter-6.png
+  /usr/share/games/pathological/graphics/painter-7-cb.png
+  /usr/share/games/pathological/graphics/painter-7.png
+  /usr/share/games/pathological/graphics/path-0.png
+  /usr/share/games/pathological/graphics/path-1.png
+  /usr/share/games/pathological/graphics/path-10.png
+  /usr/share/games/pathological/graphics/path-11.png
+  /usr/share/games/pathological/graphics/path-12.png
+  /usr/share/games/pathological/graphics/path-13.png
+  /usr/share/games/pathological/graphics/path-14.png
+  /usr/share/games/pathological/graphics/path-15.png
+  /usr/share/games/pathological/graphics/path-2.png
+  /usr/share/games/pathological/graphics/path-3.png
+  /usr/share/games/pathological/graphics/path-4.png
+  /usr/share/games/pathological/graphics/path-5.png
+  /usr/share/games/pathological/graphics/path-6.png
+  /usr/share/games/pathological/graphics/path-7.png
+  /usr/share/games/pathological/graphics/path-8.png
+  /usr/share/games/pathological/graphics/path-9.png
+  /usr/share/games/pathological/graphics/pathological-logo.gif
+  /usr/share/games/pathological/graphics/replicator.png
+  /usr/share/games/pathological/graphics/shredder.png
+  /usr/share/games/pathological/graphics/stoplight.png
+  /usr/share/games/pathological/graphics/switch-01.png
+  /usr/share/games/pathological/graphics/switch-02.png
+  /usr/share/games/pathological/graphics/switch-03.png
+  /usr/share/games/pathological/graphics/switch-10.png
+  /usr/share/games/pathological/graphics/switch-12.png
+  /usr/share/games/pathological/graphics/switch-13.png
+  /usr/share/games/pathological/graphics/switch-20.png
+  /usr/share/games/pathological/graphics/switch-21.png
+  /usr/share/games/pathological/graphics/switch-23.png
+  /usr/share/games/pathological/graphics/switch-30.png
+  /usr/share/games/pathological/graphics/switch-31.png
+  /usr/share/games/pathological/graphics/switch-32.png
+  /usr/share/games/pathological/graphics/teleporter-h.png
+  /usr/share/games/pathological/graphics/teleporter-v.png
+  /usr/share/games/pathological/graphics/tile.png
+  /usr/share/games/pathological/graphics/trigger.png
+  /usr/share/games/pathological/graphics/tunnel-0.png
+  /usr/share/games/pathological/graphics/tunnel-1.png
+  /usr/share/games/pathological/graphics/tunnel-10.png
+  /usr/share/games/pathological/graphics/tunnel-11.png
+  /usr/share/games/pathological/graphics/tunnel-12.png
+  /usr/share/games/pathological/graphics/tunnel-13.png
+  /usr/share/games/pathological/graphics/tunnel-14.png
+  /usr/share/games/pathological/graphics/tunnel-15.png
+  /usr/share/games/pathological/graphics/tunnel-2.png
+  /usr/share/games/pathological/graphics/tunnel-3.png
+  /usr/share/games/pathological/graphics/tunnel-4.png
+  /usr/share/games/pathological/graphics/tunnel-5.png
+  /usr/share/games/pathological/graphics/tunnel-6.png
+  /usr/share/games/pathological/graphics/tunnel-7.png
+  /usr/share/games/pathological/graphics/tunnel-8.png
+  /usr/share/games/pathological/graphics/tunnel-9.png
+  /usr/share/games/pathological/graphics/wheel-dark.png
+  /usr/share/games/pathological/graphics/wheel.png
+  /usr/share/games/pathological/music/background.xm
+  /usr/share/games/pathological/music/intro.xm
+  /usr/share/games/pathological/pathological.py
+  /usr/share/games/pathological/sounds/change_color.wav
+  /usr/share/games/pathological/sounds/die.wav
+  /usr/share/games/pathological/sounds/direct_marble.wav
+  /usr/share/games/pathological/sounds/extra_life.wav
+  /usr/share/games/pathological/sounds/filter_admit.wav
+  /usr/share/games/pathological/sounds/incorrect.wav
+  /usr/share/games/pathological/sounds/levelfinish.wav
+  /usr/share/games/pathological/sounds/marble_release.wav
+  /usr/share/games/pathological/sounds/menu_scroll.wav
+  /usr/share/games/pathological/sounds/ping.wav
+  /usr/share/games/pathological/sounds/replicator.wav
+  /usr/share/games/pathological/sounds/shredder.wav
+  /usr/share/games/pathological/sounds/switch.wav
+  /usr/share/games/pathological/sounds/teleport.wav
+  /usr/share/games/pathological/sounds/trigger_setup.wav
+  /usr/share/games/pathological/sounds/wheel_completed.wav
+  /usr/share/games/pathological/sounds/wheel_turn.wav
+  /usr/share/man/man6/pathological.6.gz
+  /usr/share/pixmaps/pathological.xpm
+  /var/games/pathological_scores
+
+------------------
+
+Port Notes:
+
+----- version 1.1.3-2 -----
+Rebuilt for python-2.5.
+
+----- version 1.1.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

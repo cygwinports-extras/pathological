@@ -1,0 +1,11 @@
+category: Games
+requires: python python-pygame
+sdesc: "An enriched clone of the game 'Logical' by Rainbow Arts"
+ldesc: "Pathological is a puzzle game consisting of marbles that roll
+along paths, and interact along the way with various devices and
+gadgets.
+
+The object of each level is to 'complete' all of the wheels on the board.
+To complete a wheel, catch four marbles of matching color in the same
+wheel. The marbles will vanish, and the wheel will turn dark to indicate
+that it has been completed."
